@@ -22,7 +22,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(146, 115, 95, 0.4) 0%, rgba(126, 82, 75, 0.4) 100%), url(../img/Victoria.jpg);
+    background-image: linear-gradient(to top, rgba(146, 115, 95, 0.4) 0%, rgba(126, 82, 75, 0.4) 100%), url(../img/11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
