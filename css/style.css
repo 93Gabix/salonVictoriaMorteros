@@ -17,7 +17,7 @@ body {
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 header {
@@ -86,7 +86,13 @@ header {
 
 .titulo {
     font-size: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 10%;
+}
+
+.titulo2 {
+    font-size: 50px;
+    margin-bottom: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .copy {
@@ -125,7 +131,7 @@ p {
 }
 
 .p-foot {
-    text-align: center;
+    text-align: left;
 }
 
 .service {
@@ -260,7 +266,7 @@ footer {
 }
 
 .brand {
-    text-align: center;
+    text-align: left;
     font-weight: 500;
     font-size: 40px;
 }
@@ -312,6 +318,11 @@ footer {
     }
     .titulo {
         font-size: 40px;
+        margin-bottom: 20%;
+    }
+    .titulo2 {
+        font-size: 30px;
+        margin-bottom: 35%;
     }
     .contenedor-servicio img {
         width: 80%;
@@ -338,6 +349,7 @@ footer {
     .social-media {
         width: 80%;
         justify-content: space-evenly;
+        margin-right: 50%;
     }
     .social-media i {
         margin-left: 0;
@@ -363,6 +375,10 @@ footer {
     .titulo {
         font-size: 30px;
     }
+    .titulo2 {
+        font-size: 30px;
+        margin-bottom: 65%;
+    }
     .subtitulo {
         font-size: 30px;
     }
@@ -374,6 +390,7 @@ footer {
     }
     .social-media {
         width: 100%;
+        margin-right: 57%;
     }
     .contacts-us {
         width: 90%;
