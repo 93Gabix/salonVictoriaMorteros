@@ -22,7 +22,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(146, 115, 95, 0.4) 0%, rgba(126, 82, 75, 0.4) 100%), url(../img/16.jpeg);
+    background-image: linear-gradient(to top, rgba(146, 115, 95, 0.4) 0%, rgba(126, 82, 75, 0.4) 100%), url(../img/16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -85,14 +85,20 @@ header {
 }
 
 .titulo {
-    font-size: 60px;
-    margin-bottom: 10%;
+    font-size: 40px;
+    margin-top: 30%;
 }
 
 .titulo2 {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Permanent Marker', cursive;
+    /* color: #000; */
+}
+
+.titulo3 {
+    font-size: 30px;
+    margin-bottom: 20%;
 }
 
 .copy {
@@ -128,6 +134,8 @@ header {
 
 p {
     text-align: justify;
+    line-height: 1.5;
+    /* line-height: 25px; */
 }
 
 .p-foot {
@@ -310,6 +318,16 @@ footer {
     height: 2px;
     background: #fff;
     margin-bottom: 60px;
+}
+
+.lbl-comentar {
+    width: 100%;
+    text-align: center;
+}
+
+.comentar {
+    font-family: cursive;
+    font-size: 20px;
 }
 
 @media screen and (max-width:800px) {
