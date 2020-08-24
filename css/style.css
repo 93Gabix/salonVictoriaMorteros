@@ -96,14 +96,14 @@ header {
 .titulo {
     font-size: 40px;
     margin-top: 30%;
-    -webkit-text-stroke: 1px black;
+    /* -webkit-text-stroke: 1px black; */
 }
 
 .titulo2 {
     font-size: 70px;
     margin-bottom: 20%;
     font-family: 'Acme', sans-serif;
-    -webkit-text-stroke: 1px black;
+    /* -webkit-text-stroke: 1px black; */
     /* color: #000; */
 }
 
