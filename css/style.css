@@ -31,7 +31,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(146, 115, 95, 0.4) 0%, rgba(126, 82, 75, 0.4) 100%), url(../img/16.jpg);
+    background-image: linear-gradient(to top, rgba(44, 39, 39, 0.4) 0%, rgba(165, 124, 118, 0.4) 100%), url(../img/16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,7 +43,7 @@ header {
     padding: 0;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     color: #fff;
@@ -95,13 +95,11 @@ header {
 
 .titulo {
     font-size: 40px;
-    margin-top: 30%;
     /* -webkit-text-stroke: 1px black; */
 }
 
 .titulo2 {
     font-size: 70px;
-    margin-bottom: 20%;
     font-family: 'Acme', sans-serif;
     /* -webkit-text-stroke: 1px black; */
     /* color: #000; */
